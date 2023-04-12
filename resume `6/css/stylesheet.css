@@ -1,0 +1,80 @@
+*{
+  padding:;
+  margin:;
+
+}
+
+body{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size:110%;
+  background-color: #F1DDCF;
+  display: flex;
+  flex-direction:column;
+  /*border: 5px solid rgb(185, 85, 48);/
+  /*padding: 10px;*/
+}
+
+header {
+  text-align: center;
+  justify-content: center;
+  background-color:#85B09A;
+  color: whitesmoke;
+  /*padding: 10px 0 10px ;*/
+}
+  
+.main{
+  display: flex ;
+  flex-direction:column;
+  /*overflow: unset;*/
+}
+
+
+#sidebar{
+   border: ;
+   width: fit-content;
+   overflow: auto;
+   background-color: #568203;
+}
+
+#profilePhoto{
+  border-radius: 50%;
+  outline: 2px solid brown;
+}
+
+.icons{
+  width: 3rem;
+  height:auto;
+  margin: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+h2 {
+  color: blacks;
+}
+
+ul{
+  list-style: none;
+}
+
+
+
+
+footer {
+  background-color: #B56917;
+  color: #FCF7F8;
+  text-align: center;
+} 
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: row;
+  }
+
+
